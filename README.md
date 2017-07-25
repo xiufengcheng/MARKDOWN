@@ -32,11 +32,65 @@ ___我是粗体+斜体___
   	
 # 有序列表
 1. Name:程秀峰  
-	1.1 Name:汪锦霞  
+	1.1 Name:xxx  
 	1.2 QQ:32472889
 2. QQ:32472889  
 3. 爱好：乒乓球
 4. 地址：华中师范大学  
 	4.1 课程：c#
 
-# List
+# 链接
+- 外部链接 [百度](http://www.baidu.com)
+- 内部链接1：
+	- 链接仓库的其它文件：[MARKDOWN](link.html)
+- 内部链接2：
+	- 链接本文档的其它部分：[MARKDOWN](link.html#标题)
+
+##引用式链接
+- 外部链接 [baidu]
+- 内部链接1：
+	- 链接仓库的其它文件：[]
+- 内部链接2：
+	- 链接本文档的其它部分：[repo]
+
+# 图片
+- 外部图片
+![](https://www.baidu.com/img/bd_logo1.png "百度logo")
+- 仓库内的图片
+！[](img/CCNU.jpg "华师logo")  
+## 图片的引用式链接  
+![](baidu_logo)
+![](CCNU_logo)
+
+#引用
+> 这是一段引文。  
+----出自《华山论剑》
+
+>>>这是多重引文
+
+#块代码
+
+- 行内代码
+这个代码中用来声明变量是`int a = 10; `,打印变量内容是`10`
+- 块式代码
+```C语言
+#include<stdio.h>
+void main()
+{
+	int c=5;
+	system.print("asdf");
+	system.read("asdf");
+}
+```
+
+
+
+
+<!--- 下面是本文档中用到的链接 --->
+[百度]: http://www.baidu.com
+[baidu]: http://www.baidu.com
+[repo]: README.MD
+[repo2]: README.MD#daimakuai  
+[baidu_logo]: https://www.baidu.com/img/bd_logo1.png
+[CCNU_logo]: img/CCNU.jpg
+
