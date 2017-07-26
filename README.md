@@ -125,10 +125,8 @@ colume1| colume2  | colume 3
 - [x] item3
 
 ## emoji
-:smile :hourglass 
-:smile 
-:cn  
-:snake  
+: smile :
+- 参考果冻虾仁的仓库
 
 # 注释 demo 
 <!--
