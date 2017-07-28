@@ -125,7 +125,13 @@ colume1| colume2  | colume 3
 - [x] item3
 
 ## emoji
+<<<<<<< HEAD
 :smile: 
+=======
+:smile:
+:blush:
+- 参考果冻虾仁的仓库
+>>>>>>> b11bc21f29aefe117c770d8ce0fa9d4081aff04d
 
 # 注释 demo 
 <!--
